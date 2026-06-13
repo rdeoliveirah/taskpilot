@@ -2,20 +2,25 @@
 
 ## Problem
 
-Students and professionals often waste time managing tasks, deadlines, and scattered information across different platforms.
+Students and professionals often lose time deciding what to work on first, especially when tasks, deadlines, estimates, and notes are scattered across different tools.
 
 ## Proposed Solution
 
-TaskPilot is an AI-powered productivity assistant designed to help users organize tasks, prioritize work, and quickly retrieve information.
+TaskPilot is a simple AI-powered productivity assistant built with Python and Streamlit. It stores tasks and notes locally in JSON, calculates rule-based priorities, and optionally uses OpenRouter or Google Gemini to generate smarter recommendations and daily schedules.
 
 ## Key Features
 
-- Task management
-- Priority suggestions
-- Daily planning
+- Local task management
+- Deadline and importance-based priority scoring
+- Dashboard metrics
+- Local daily planning
+- OpenRouter-powered prioritization recommendations
+- OpenRouter-powered daily schedules
+- Gemini-powered prioritization recommendations
+- Gemini-powered daily schedules
+- Productivity suggestions
 - Note organization
-- Information retrieval
 
 ## Status
 
-Prototype under development.
+Portfolio-ready prototype with local JSON storage and optional OpenRouter/Gemini integration.
